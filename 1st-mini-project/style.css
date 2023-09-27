@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.all{
+        height: 1000px;
+        width: 100%;
+        background-image: url(background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: space;
+        overflow: hidden;
+}
+
+
+.logo-bar{
+ display: flex;
+ max-height: 50px;
+ position: relative;
+ max-height: 50px;
+ justify-content: space-between;
+ align-items: center;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+
+.nav{
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+ max-height: 50px;
+ position: fixed;
+ justify-content: space-between;
+ align-items: center;
+ left: 50px;
+ right: 50px;
+}
+
+
+.logo{
+    width: 50px;
+}
+
+.bompany-name{
+    font-family: 'Orbitron';
+}
+
+
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px;
+    height: 40px;
+    font-family: 'Tourney', cursive;
+    color: darkblue;
+    background-color: lightblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: darkblue;
+
+}
+
+.body{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+
+}
