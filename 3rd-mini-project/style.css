@@ -1,0 +1,88 @@
+@font-face{
+      font-family: productsans;
+      src:url(ProductSansRegular.ttf);
+}
+
+.total{
+      display: block;
+      width: 700px;
+      justify-content: center;
+      margin: 25%;
+}
+
+.buttons{
+      display: flex;
+      justify-content: center;
+      
+      
+}
+
+
+button{
+      margin: 20px;
+      cursor: pointer;
+      height: 30px;
+      background-color: #F8F9FA;
+      border: none;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 3px;
+      transition: all 0.5s;
+}
+
+
+button:hover{
+      box-shadow: 3px 2px 2px rgba(236, 236, 236, 1);
+}
+
+button:active{
+      background-color: white;
+      border: 1px;
+      border: solid;
+      border-color: blue;
+}
+
+
+
+.Search{
+      display: flex;
+      justify-content: center;
+
+
+}
+
+
+.another_languages{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+}
+
+.another_languages p{
+      font-family: productsans;
+}
+
+.another_languages a {
+
+      margin: 3px;
+      font-size: small;
+      font-family: productsans;
+      cursor: pointer;
+}
+
+.search-btn{
+      margin: 0px;
+}
+
+input {
+      box-sizing: border-box;
+      display: block;
+      border: 1px solid rgb(223, 225, 229);
+      height: 44px;
+      margin: 0 auto 29px;
+      max-width: 564px;
+      width: 90%;
+      padding-left: 30px;
+      font-size: 16px;
+}
