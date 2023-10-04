@@ -6,15 +6,16 @@
 .total{
       display: block;
       width: 700px;
-      justify-content: center;
-      margin: 25%;
+      align-items: center;
+      margin: auto;
+      margin-top: 25vh;
 }
 
 .buttons{
       display: flex;
       justify-content: center;
       
-      
+       
 }
 
 
